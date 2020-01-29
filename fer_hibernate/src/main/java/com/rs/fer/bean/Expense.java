@@ -30,7 +30,7 @@ public class Expense {
 	@Column
 	private String bywhom;
 	@Column
-	private int user_id;
+	private int userid;
 
 	public int getId() {
 		return Id;
@@ -89,11 +89,11 @@ public class Expense {
 	}
 
 	public int getUser_id() {
-		return user_id;
+		return userid;
 	}
 
-	public void setUser_id(int user_id) {
-		this.user_id = user_id;
+	public void setUserid(int userid) {
+		this.userid = userid;
 	}
 
 }
