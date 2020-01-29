@@ -1,0 +1,99 @@
+package com.rs.fer.bean;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "expense")
+public class Expense {
+
+	@Id
+	@Column(updatable = false, nullable = false)
+	@GeneratedValue
+	private int Id;
+
+	@Column
+	private String expensetype;
+
+	@Column
+	private String date;
+
+	@Column
+	private String price;
+	@Column
+	private String noofitems;
+	@Column
+	private String total;
+	@Column
+	private String bywhom;
+	@Column
+	private int user_id;
+
+	public int getId() {
+		return Id;
+	}
+
+	public void setId(int id) {
+		Id = id;
+	}
+
+	public String getExpensetype() {
+		return expensetype;
+	}
+
+	public void setExpensetype(String expensetype) {
+		this.expensetype = expensetype;
+	}
+
+	public String getDate() {
+		return date;
+	}
+
+	public void setDate(String date) {
+		this.date = date;
+	}
+
+	public String getPrice() {
+		return price;
+	}
+
+	public void setPrice(String price) {
+		this.price = price;
+	}
+
+	public String getNoofitems() {
+		return noofitems;
+	}
+
+	public void setNoofitems(String noofitems) {
+		this.noofitems = noofitems;
+	}
+
+	public String getTotal() {
+		return total;
+	}
+
+	public void setTotal(String total) {
+		this.total = total;
+	}
+
+	public String getBywhom() {
+		return bywhom;
+	}
+
+	public void setBywhom(String bywhom) {
+		this.bywhom = bywhom;
+	}
+
+	public int getUser_id() {
+		return user_id;
+	}
+
+	public void setUser_id(int user_id) {
+		this.user_id = user_id;
+	}
+
+}
