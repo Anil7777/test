@@ -11,12 +11,12 @@ public class FER_AddExpense {
 
 		Expense expense = new Expense();
 
-		expense.setExpensetype("Product");
+		expense.setExpensetype("Tea");
 		expense.setDate("2019-12-23");
 		expense.setPrice("800");
-		expense.setNoofitems("3");
+		expense.setNoofitems("1");
 		expense.setTotal("10");
-		expense.setBywhom("anil");
+		expense.setBywhom("anu");
 
 		boolean isAddExpense = ferService.addExpense(expense);
 		if (isAddExpense) {
