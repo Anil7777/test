@@ -14,8 +14,8 @@ public class FER_AddExpense {
 		expense.setExpensetype("Tea");
 		expense.setDate("2019-12-23");
 		expense.setPrice("800");
-		expense.setNoofitems("1");
-		expense.setTotal("10");
+		expense.setNoofitems("2");
+		expense.setTotal("20");
 		expense.setBywhom("anu");
 
 		boolean isAddExpense = ferService.addExpense(expense);
