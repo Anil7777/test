@@ -12,8 +12,8 @@ public class FER_AddExpense {
 		Expense expense = new Expense();
 
 		expense.setExpensetype("Tea");
-		expense.setDate("2019-12-23");
-		expense.setPrice("800");
+		expense.setDate("29/01/2020");
+		expense.setPrice("100");
 		expense.setNoofitems("2");
 		expense.setTotal("20");
 		expense.setBywhom("anu");
