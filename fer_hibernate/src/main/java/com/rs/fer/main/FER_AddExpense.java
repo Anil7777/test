@@ -15,7 +15,7 @@ public class FER_AddExpense {
 		expense.setDate("29/01/2020");
 		expense.setPrice("100");
 		expense.setNoofitems("2");
-		expense.setTotal("20");
+		expense.setTotal("10");
 		expense.setBywhom("anu");
 
 		boolean isAddExpense = ferService.addExpense(expense);
